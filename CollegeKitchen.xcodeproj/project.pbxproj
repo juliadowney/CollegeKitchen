@@ -19,6 +19,10 @@
 		7B98B25121929ADA00D1B5F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B98B25021929ADA00D1B5F2 /* GoogleService-Info.plist */; };
 		B7B2696321960C5E004D9C76 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B2696221960C5E004D9C76 /* Joke.swift */; };
 		B7B2696521960CAD004D9C76 /* RecipeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B2696421960CAD004D9C76 /* RecipeDetails.swift */; };
+		B7B2696A219610EB004D9C76 /* EstimatedCostAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B26966219610EA004D9C76 /* EstimatedCostAPI.swift */; };
+		B7B2696B219610EB004D9C76 /* IngredientSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B26967219610EA004D9C76 /* IngredientSearch.swift */; };
+		B7B2696C219610EB004D9C76 /* EstimatedCost.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B26968219610EA004D9C76 /* EstimatedCost.swift */; };
+		B7B2696D219610EB004D9C76 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B26969219610EB004D9C76 /* Ingredient.swift */; };
 		FEFAE111ADC472CF6B86BED9 /* Pods_CollegeKitchenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20785AD1B8FA88F549086AD5 /* Pods_CollegeKitchenUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +68,10 @@
 		9D2DA3876BB7FB9271B32636 /* Pods-CollegeKitchenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollegeKitchenUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollegeKitchenUITests/Pods-CollegeKitchenUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B7B2696221960C5E004D9C76 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 		B7B2696421960CAD004D9C76 /* RecipeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetails.swift; sourceTree = "<group>"; };
+		B7B26966219610EA004D9C76 /* EstimatedCostAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstimatedCostAPI.swift; sourceTree = "<group>"; };
+		B7B26967219610EA004D9C76 /* IngredientSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientSearch.swift; sourceTree = "<group>"; };
+		B7B26968219610EA004D9C76 /* EstimatedCost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstimatedCost.swift; sourceTree = "<group>"; };
+		B7B26969219610EB004D9C76 /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		E3BAE2A973318C75A1FC9D1E /* Pods-CollegeKitchenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollegeKitchenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollegeKitchenTests/Pods-CollegeKitchenTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,6 +139,10 @@
 			isa = PBXGroup;
 			children = (
 				B7B2696421960CAD004D9C76 /* RecipeDetails.swift */,
+				B7B26968219610EA004D9C76 /* EstimatedCost.swift */,
+				B7B26966219610EA004D9C76 /* EstimatedCostAPI.swift */,
+				B7B26969219610EB004D9C76 /* Ingredient.swift */,
+				B7B26967219610EA004D9C76 /* IngredientSearch.swift */,
 				B7B2696221960C5E004D9C76 /* Joke.swift */,
 				7B98B222219286CD00D1B5F2 /* AppDelegate.swift */,
 				7B98B224219286CD00D1B5F2 /* ViewController.swift */,
@@ -393,6 +405,10 @@
 				7B98B225219286CD00D1B5F2 /* ViewController.swift in Sources */,
 				7B98B223219286CD00D1B5F2 /* AppDelegate.swift in Sources */,
 				B7B2696321960C5E004D9C76 /* Joke.swift in Sources */,
+				B7B2696D219610EB004D9C76 /* Ingredient.swift in Sources */,
+				B7B2696B219610EB004D9C76 /* IngredientSearch.swift in Sources */,
+				B7B2696A219610EB004D9C76 /* EstimatedCostAPI.swift in Sources */,
+				B7B2696C219610EB004D9C76 /* EstimatedCost.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
