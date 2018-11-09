@@ -317,7 +317,7 @@
         <scene sceneID="7wc-qU-lee">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5G7-w3-G3f" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="MyProfile" id="Z2Y-iy-uky"/>
+                    <tabBarItem key="tabBarItem" title="MyProfile" selectedImage="profile" id="Z2Y-iy-uky"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bpr-Um-xeF">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -335,5 +335,6 @@
     </scenes>
     <resources>
         <image name="budget" width="25" height="25"/>
+        <image name="profile" width="25" height="25"/>
     </resources>
 </document>
