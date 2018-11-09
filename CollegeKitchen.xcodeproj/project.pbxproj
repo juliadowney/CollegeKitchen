@@ -17,6 +17,8 @@
 		7B98B238219286CE00D1B5F2 /* CollegeKitchenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98B237219286CE00D1B5F2 /* CollegeKitchenTests.swift */; };
 		7B98B243219286CE00D1B5F2 /* CollegeKitchenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98B242219286CE00D1B5F2 /* CollegeKitchenUITests.swift */; };
 		7B98B25121929ADA00D1B5F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B98B25021929ADA00D1B5F2 /* GoogleService-Info.plist */; };
+		B7B2696321960C5E004D9C76 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B2696221960C5E004D9C76 /* Joke.swift */; };
+		B7B2696521960CAD004D9C76 /* RecipeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B2696421960CAD004D9C76 /* RecipeDetails.swift */; };
 		FEFAE111ADC472CF6B86BED9 /* Pods_CollegeKitchenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20785AD1B8FA88F549086AD5 /* Pods_CollegeKitchenUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,8 @@
 		83161D610D3ADC22D48DF751 /* Pods-CollegeKitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollegeKitchen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollegeKitchen/Pods-CollegeKitchen.debug.xcconfig"; sourceTree = "<group>"; };
 		84C14C8531CBEA808E35A35F /* Pods_CollegeKitchenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollegeKitchenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D2DA3876BB7FB9271B32636 /* Pods-CollegeKitchenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollegeKitchenUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollegeKitchenUITests/Pods-CollegeKitchenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B7B2696221960C5E004D9C76 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		B7B2696421960CAD004D9C76 /* RecipeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetails.swift; sourceTree = "<group>"; };
 		E3BAE2A973318C75A1FC9D1E /* Pods-CollegeKitchenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollegeKitchenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollegeKitchenTests/Pods-CollegeKitchenTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +130,8 @@
 		7B98B221219286CD00D1B5F2 /* CollegeKitchen */ = {
 			isa = PBXGroup;
 			children = (
+				B7B2696421960CAD004D9C76 /* RecipeDetails.swift */,
+				B7B2696221960C5E004D9C76 /* Joke.swift */,
 				7B98B222219286CD00D1B5F2 /* AppDelegate.swift */,
 				7B98B224219286CD00D1B5F2 /* ViewController.swift */,
 				7B98B226219286CD00D1B5F2 /* Main.storyboard */,
@@ -305,15 +311,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CollegeKitchen-checkManifestLockResult.txt",
 			);
@@ -327,15 +329,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CollegeKitchenUITests-checkManifestLockResult.txt",
 			);
@@ -349,15 +347,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CollegeKitchenTests-checkManifestLockResult.txt",
 			);
@@ -371,8 +365,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CollegeKitchen/Pods-CollegeKitchen-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
@@ -380,8 +372,6 @@
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
@@ -399,8 +389,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7B2696521960CAD004D9C76 /* RecipeDetails.swift in Sources */,
 				7B98B225219286CD00D1B5F2 /* ViewController.swift in Sources */,
 				7B98B223219286CD00D1B5F2 /* AppDelegate.swift in Sources */,
+				B7B2696321960C5E004D9C76 /* Joke.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
