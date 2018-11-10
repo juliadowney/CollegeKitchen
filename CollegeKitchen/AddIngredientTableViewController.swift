@@ -18,7 +18,8 @@ class AddIngredientTableViewController: UITableViewController {
         let json = JSONDecoder()
         let product = try! json.decode(ApiResult.self, from: data)
         
-        for (ingredient: IngredientSearch) in product.results{
+        for ingredientJson in product.results{
+            let ingredient = try? json.decode(IngredientSearch.self, from: ingredientJson)
             rearchResults.append(ingredient)
             print(ingredient)
         }
