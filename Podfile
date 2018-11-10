@@ -8,6 +8,8 @@ target 'CollegeKitchen' do
   # Pods for CollegeKitchen
   pod 'Firebase/Core'
   pod 'Firebase/Database'
+  pod 'FirebaseUI'
+
   target 'CollegeKitchenTests' do
     inherit! :search_paths
     # Pods for testing
