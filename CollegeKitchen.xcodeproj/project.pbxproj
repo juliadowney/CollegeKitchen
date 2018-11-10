@@ -17,6 +17,9 @@
 		7B98B238219286CE00D1B5F2 /* CollegeKitchenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98B237219286CE00D1B5F2 /* CollegeKitchenTests.swift */; };
 		7B98B243219286CE00D1B5F2 /* CollegeKitchenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98B242219286CE00D1B5F2 /* CollegeKitchenUITests.swift */; };
 		7B98B25121929ADA00D1B5F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B98B25021929ADA00D1B5F2 /* GoogleService-Info.plist */; };
+		B70FA5EC2197879500A75AA3 /* MyFridgeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70FA5EB2197879500A75AA3 /* MyFridgeTableViewController.swift */; };
+		B70FA5EE219787E800A75AA3 /* AddIngredientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70FA5ED219787E800A75AA3 /* AddIngredientTableViewController.swift */; };
+		B70FA5F2219789DD00A75AA3 /* ApiResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70FA5F1219789DD00A75AA3 /* ApiResults.swift */; };
 		B7B2696321960C5E004D9C76 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B2696221960C5E004D9C76 /* Joke.swift */; };
 		B7B2696521960CAD004D9C76 /* RecipeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B2696421960CAD004D9C76 /* RecipeDetails.swift */; };
 		B7B2696A219610EB004D9C76 /* EstimatedCostAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B26966219610EA004D9C76 /* EstimatedCostAPI.swift */; };
@@ -66,6 +69,9 @@
 		83161D610D3ADC22D48DF751 /* Pods-CollegeKitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollegeKitchen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollegeKitchen/Pods-CollegeKitchen.debug.xcconfig"; sourceTree = "<group>"; };
 		84C14C8531CBEA808E35A35F /* Pods_CollegeKitchenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollegeKitchenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D2DA3876BB7FB9271B32636 /* Pods-CollegeKitchenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollegeKitchenUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollegeKitchenUITests/Pods-CollegeKitchenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B70FA5EB2197879500A75AA3 /* MyFridgeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFridgeTableViewController.swift; sourceTree = "<group>"; };
+		B70FA5ED219787E800A75AA3 /* AddIngredientTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIngredientTableViewController.swift; sourceTree = "<group>"; };
+		B70FA5F1219789DD00A75AA3 /* ApiResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResults.swift; sourceTree = "<group>"; };
 		B7B2696221960C5E004D9C76 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 		B7B2696421960CAD004D9C76 /* RecipeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetails.swift; sourceTree = "<group>"; };
 		B7B26966219610EA004D9C76 /* EstimatedCostAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstimatedCostAPI.swift; sourceTree = "<group>"; };
@@ -138,6 +144,7 @@
 		7B98B221219286CD00D1B5F2 /* CollegeKitchen */ = {
 			isa = PBXGroup;
 			children = (
+				B70FA5F1219789DD00A75AA3 /* ApiResults.swift */,
 				B7B2696421960CAD004D9C76 /* RecipeDetails.swift */,
 				B7B26968219610EA004D9C76 /* EstimatedCost.swift */,
 				B7B26966219610EA004D9C76 /* EstimatedCostAPI.swift */,
@@ -147,6 +154,8 @@
 				7B98B222219286CD00D1B5F2 /* AppDelegate.swift */,
 				7B98B224219286CD00D1B5F2 /* ViewController.swift */,
 				7B98B226219286CD00D1B5F2 /* Main.storyboard */,
+				B70FA5EB2197879500A75AA3 /* MyFridgeTableViewController.swift */,
+				B70FA5ED219787E800A75AA3 /* AddIngredientTableViewController.swift */,
 				7B98B229219286CE00D1B5F2 /* Assets.xcassets */,
 				7B98B22B219286CE00D1B5F2 /* LaunchScreen.storyboard */,
 				7B98B25021929ADA00D1B5F2 /* GoogleService-Info.plist */,
@@ -405,10 +414,13 @@
 				7B98B225219286CD00D1B5F2 /* ViewController.swift in Sources */,
 				7B98B223219286CD00D1B5F2 /* AppDelegate.swift in Sources */,
 				B7B2696321960C5E004D9C76 /* Joke.swift in Sources */,
+				B70FA5EE219787E800A75AA3 /* AddIngredientTableViewController.swift in Sources */,
 				B7B2696D219610EB004D9C76 /* Ingredient.swift in Sources */,
 				B7B2696B219610EB004D9C76 /* IngredientSearch.swift in Sources */,
 				B7B2696A219610EB004D9C76 /* EstimatedCostAPI.swift in Sources */,
 				B7B2696C219610EB004D9C76 /* EstimatedCost.swift in Sources */,
+				B70FA5F2219789DD00A75AA3 /* ApiResults.swift in Sources */,
+				B70FA5EC2197879500A75AA3 /* MyFridgeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
