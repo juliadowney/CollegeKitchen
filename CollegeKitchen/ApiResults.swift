@@ -8,6 +8,6 @@
 
 import Foundation
 
-struct ApiResult: Codable{
-    let results = [Any]
+struct ApiResults:Codable{
+//    let results :[Any]
 }

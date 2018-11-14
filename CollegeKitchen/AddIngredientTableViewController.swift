@@ -9,21 +9,6 @@
 import UIKit
 
 class AddIngredientTableViewController: UITableViewController {
-    
-    var searchResults: [Ingredient] = []
-    
-    func getData(){
-        let url = "https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/food/ingredients/autocomplete?query=" + "appl"
-        let data = try! Data(contentsOf: url)
-        let json = JSONDecoder()
-        let product = try! json.decode(ApiResult.self, from: data)
-        
-        for ingredientJson in product.results{
-            let ingredient = try? json.decode(IngredientSearch.self, from: ingredientJson)
-            rearchResults.append(ingredient)
-            print(ingredient)
-        }
-    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
